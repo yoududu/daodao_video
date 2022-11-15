@@ -1,0 +1,96 @@
+/* pages/personal/personal.wxss */
+
+.container{
+  padding: 10rpx;
+  /* background-color: #f5f5f5; */
+}
+.top{
+  height: 130rpx;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;align-items: center;
+}
+.img{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  /* border: 5rpx solid #21B1DD; */
+}
+.userlogin{
+  font-size: 40rpx;
+}
+.userregister{
+  font-size: 40rpx;
+}
+.line{
+  font-size: 35rpx;
+  margin: 0px 20rpx 0px 20rpx;
+  color: #999999;
+}
+.userimg{
+  margin-left: 40rpx;
+}
+.chioce{
+  margin-left: 50rpx;
+}
+.vipbox{
+  width: 200rpx;
+  height: 100rpx;
+  border: 3rpx solid #a05a0a;
+  background-color: #f7f2ec;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin: 0rpx 30rpx 0rpx 50rpx;
+}
+.openvip{
+  padding: 10rpx 10rpx 0rpx 10rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #a05a0a;
+}
+.stext{
+  font-size: 25rpx;
+  color: #caa780;
+  padding: 0rpx 10rpx;
+}
+.copy{
+  font-size: 25rpx;
+  width: 50rpx;
+  height: 30rpx;
+  color: #999999;
+  background-color: #f0f0f0;
+  padding: 10rpx 15rpx 10rpx;
+  border: 2rpx solid #999999;
+  border-radius: 5rpx;
+}
+.vip{
+  margin-top: 60rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cont{
+  margin-top: 60rpx;
+}
+.list{
+  font-size: 30rpx;
+  /* margin-left: 20rpx; */
+  text-indent: 20rpx;
+  text-align: left;
+  padding: 20rpx 0rpx 20rpx;
+  border-bottom: 2rpx solid #999999;
+}
+.vipicon{
+  width: 100rpx;
+  height: 30rpx;
+  margin-left: 50rpx;
+}
+.vipicon .novip{
+  width: 50rpx;
+  height: 30rpx;
+}
+.vipicon .bigvip{
+  width: 90rpx;
+  height: 30rpx;
+}

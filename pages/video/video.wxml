@@ -1,0 +1,15 @@
+<!--pages/video/video.wxml-->
+<view class="container">
+<view class="chaptername">
+第<text chapteridd="chapteridd">{{chapteridd}}</text>章 <text chapternamee="{{chapternamee}}">{{chapternamee}}</text>
+</view>
+  <view class="videobox">
+  <view class="videolist" wx:for="{{videoData}}" wx:key="id" data-name="{{item.name}}" data-index="{{item.mp4_url}}" bindtap="videourl"> 
+    <view class="videocont">
+    <image src="/public/icon/tu5.jpg" mode=""/>
+    </view>
+    <view class="videoname">{{item.name}}</view>
+  </view>
+    
+  </view>
+</view>

@@ -1,0 +1,37 @@
+<!--pages/vip/vip.wxml-->
+<view class="container">
+  <view class="vip">
+    <view class="vipnick">黄金VIP
+    </view>
+    <view class="vipcont">
+    <view class="vipbox vipboxcol1 vipboxcol2" wx:for="{{vipData}}" wx:key="id" bindtap="vipbtn" data-money="{{item.price}}" data-id="{{item.id}}">
+      <view class="vipname">{{item.name}}</view>
+      <view class="timeday">{{item.expires}}天</view>
+      <view class="vipmoney">￥{{item.price}}</view>
+      <view class="viporiginal">原价{{item.origin_price}}</view>
+    </view>
+  </view>
+  <view class="vippay">
+    支付宝支付
+  </view>
+  </view>
+  <view class="paycont">
+    <text class="agreement">开通会员代表接收《会员服务协议》</text>
+    <view class="paybtn" bindtap="paypay" paycount="paycount" vipid="vipid">
+      <text class="numpay">￥{{paymoney}}</text>
+      确认协议并支付
+    </view>
+  </view>
+</view>
+<view class="vippop" wx:if="{{vipPop}}">
+  <view class="vipurlbox">
+    <view class="vipurl" >
+      <view>请复制链接，在浏览器打开！</view>
+      {{vipurl}}
+    </view>
+    <view class="vipbtnbox"> 
+      <text class="copy" bindtap="copy">复制</text>
+    <text class="okk" bindtap="payok">完成</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="top" wx:if="{{!hasUserInfo}}">
+    <view class="userimg">
+      <image class="img" src="/public/icon/tu5.jpg" mode="" />
+    </view>
+    <view class="chioce">
+      <text class="userlogin" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile">登录</text>
+      <text class="userlogin" wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo">OK</text>
+      <text class="line">|</text>
+      <text class="userregister">注册</text>
+    </view>
+  </view>
+  <view class="top" wx:else>
+    <view class="userimg">
+      <image class="img" bindtap="bindViewTap" src="{{userInfo.avatarUrl}}" mode="cover" mode="" />
+    </view>
+    <view class="chioce">
+      <text class="userlogin">{{userInfo.nickName}}</text>
+    </view>
+    <view class="vipicon">
+      <image wx:if="{{vipicon}}" class="novip" src="/public/icon/novip.png" mode=""/>
+      <image wx:else="{{vipicon}}" class="bigvip" src="/public/icon/kingvip.png" mode=""/>
+    </view>
+  </view>
+  <view class="vip">
+    <view class="vipbox" bindtap="openvip">
+      <view class="openvip">开通VIP会员</view>
+      <text class="stext">立即前往开通</text>
+    </view>
+    <!-- <text class="copy">复制</text> -->
+  </view>
+  <view class="cont">
+    <view class="list">历史记录</view>
+    <view class="list">我的收藏</view>
+    <view class="list">问题反馈</view>
+    <view class="list" bindtap="letoff">退出登录</view>
+  </view>
+</view>

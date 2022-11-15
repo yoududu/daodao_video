@@ -1,0 +1,11 @@
+<!--pages/videoplay/videoplay.wxml-->
+<view class="container">
+<view class="videoplay">
+  <video class="videoplay_cont" src="{{videosrc}}" autoplay="true" direction="-90" 	show-mute-btn="true" title="12222" 	play-btn-position="bottom" 	enable-auto-rotation="true" show-fullscreen-btn="true" enable-auto-rotation="true" 	binderror="eventhandle"/>
+</view>
+<text class="videoplay_name" name="{{name}}">{{name}}</text>
+<view class="videoplay_text">
+  简介
+</view>
+  
+</view>

@@ -1,0 +1,38 @@
+/* pages/video/video.wxss */
+.container{
+  padding: 20rpx;
+}
+.chaptername{
+  height: 35px;
+  border-bottom: 2rpx solid #21B1DD;
+  line-height: 35px;
+}
+.videobox{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.videolist{
+  margin: 15rpx 0rpx;
+  width: 48%;
+  height: 300rpx;
+  background-color: rgb(250, 250, 250);
+  border: 1rpx solid #c5c5c5;
+  color: #6e6d6d;
+  font-size: 30rpx;
+  font-weight: 540;
+  border-radius: 8rpx;
+}
+.videocont{
+  padding: 10rpx;
+  height: 200rpx;
+  background-color: #b7deeb;
+}
+.videocont image{
+  width: 329rpx;
+  height: 200rpx;
+}
+.videoname{
+  text-align: center;
+  line-height: 80rpx;
+}

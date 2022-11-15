@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personal/personal",
+    "pages/video/video",
+    "pages/videoplay/videoplay",
+    "pages/vip/vip",
+    "pages/deng/deng",
+    "pages/aaa/aaa"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "叨叨视频",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#21B1DD",
+    "backgroundColor": "#F7FDFF",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"public/icon/homeb.png",
+        "selectedIconPath": "public/icon/homea.png",
+        "text":"首页"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath":"public/icon/personala.png",
+        "selectedIconPath": "public/icon/personalb.png",
+        "text":"我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

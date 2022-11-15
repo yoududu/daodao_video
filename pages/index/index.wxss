@@ -1,0 +1,65 @@
+/**index.wxss**/
+.container{
+  padding: 20rpx;
+}
+/* .level_title .van-ellipsis{
+} */
+.chapterbox{
+  margin-top: 35px;
+}
+.chaptercont{
+  /* margin-top: 20rpx; */
+  padding: 10rpx 20rpx;
+  width: auto;
+  height: 120rpx;
+  border-bottom: 2rpx solid #c5c5c5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chaptername{
+  width: 400rpx;
+  height: auto;
+  color: #8f8e8e;
+  font-size: 30rpx;
+  font-weight: 540;
+}
+.chapterimg{
+  width: 200rpx;
+  height: 100rpx;
+}
+.van-tabs__nav .van-tabs__line{
+  background-color: #21B1DD;
+  width: 72px !important;
+}
+.chapterimg{
+  width: 200rpx;
+  height: 100rpx;
+}
+.titlename{
+  padding: 0rpx 10rpx;
+}
+.level_title .linetop{
+  height: 1rpx;
+  width: 100%;
+  border-top: 2rpx solid #c5c5c5;
+  /* background-color: #21B1DD; */
+}
+.level_title{
+  width: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0px 20rpx;
+}
+.level_title .van-tabs__wrap--scrollable .van-tab{
+  flex: 0 0 14% !important;
+}
+.level_title .van-ellipsis{
+  /* flex: 0 0 21%; */
+  white-space: normal;
+}
+.level_title .van-tabs__nav{
+  height: 44px;
+  width: auto;
+}

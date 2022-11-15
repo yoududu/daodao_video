@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#21B1DD",
+  "navigationBarTitleText": "叨叨视频",
+  "navigationBarTextStyle":"black",
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  }
+}

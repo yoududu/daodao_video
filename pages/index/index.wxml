@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="level_title">
+    <van-tabs active="{{ active }}" animated bind:click="titletaps" >
+      <van-tab name="{{item.id}}" title="{{item.name}}" wx:for="{{titleData}}" wx:key="id" data-id="{{item.id}}" tab-class="overflow:visible">
+      </van-tab>
+    </van-tabs>
+    <view class="linetop"></view>
+  </view>
+  <view class="chapterbox">
+  <view class="chaptercont" wx:for="{{chapterData}}" wx:key="id" data-id="{{item.id}}" bindtap="chapterid" data-name="{{item.name}}">
+    <view class="chaptername">{{item.name}}</view>
+    <view class="chapterimg"><image class="chapterimg" src="/public/icon/tu5.jpg" mode=""/>
+    </view>
+  </view>
+</view>
+  <view class="video">
+    <view class="videocont" wx:for="{{videoData}}">
+    </view>
+  </view>
+
+</view>

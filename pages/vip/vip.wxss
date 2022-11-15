@@ -1,0 +1,133 @@
+/* pages/vip/vip.wxss */
+.container{
+  padding: 10rpx 10rpx 50px;
+  /* background-color: #f5f5f5; */
+}
+.vipnick{
+  height: 34px;
+}
+.vipbox{
+  width: 220rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+.vipboxcol1{
+  background-color: rgb(250, 223, 189);
+  border: 2rpx solid rgb(228, 165, 84);
+}
+/* .vipboxcol2{
+  background-color: rgb(241, 184, 136);
+  border: 2rpx solid rgb(243, 18, 18);
+} */
+.vipcont{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.vipname{
+  margin-top: 15rpx;
+  font-weight: 550;
+}
+.timeday{
+  font-size: 30rpx;
+  color: rgb(191,106,0);
+}
+.vipmoney{
+  font-size: 40rpx;
+  font-weight: 550;
+  color: rgb(109,59,16);
+}
+.viporiginal{
+  font-size: 25rpx;
+  color: #999999;
+}
+.paycont{
+  width: 100%;
+  height: 50px;
+  border-top: 1rpx solid #999999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0rpx;
+  left: 0;
+  background-color: #fff;
+}
+.agreement{
+  font-size: 25rpx;
+  color: #999999;
+  width: 300rpx;
+  margin-left: 20rpx;
+}
+.paybtn{
+  margin-right: 20rpx;
+  width: 350rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 7rpx;
+  color: rgb(109,59,16);
+  font-weight: 550;
+  background-image: linear-gradient(to right, rgb(243, 192, 81) , rgb(248, 163, 65))
+}
+.numpay{
+  /* font-size: 35rpx; */
+  color: rgb(109,59,16);
+}
+.vippop{
+  width: 100%;
+  height: 1200rpx;
+  background-color: rgba(0,0,0,.4);
+  position: fixed;
+  left: 0rpx;
+  top: 0rpx;
+}
+.vipurlbox{
+  width: 550rpx;
+  height: 400rpx;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10rpx;
+}
+.vipurl{
+  width: 450rpx;
+  height: 280rpx;
+  margin: auto;
+  padding-top: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:pre-line;
+}
+.copy{
+  font-size: 30rpx;
+  width: 60rpx;
+  height: 40rpx;
+  color: #999999;
+  background-color: #f0f0f0;
+  padding: 10rpx 20rpx 10rpx;
+  border: 2rpx solid #999999;
+  border-radius: 5rpx;
+}
+.okk{
+  font-size: 30rpx;
+  width: 60rpx;
+  height: 40rpx;
+  color: #346110;
+  background-color: #cefac1;
+  padding: 10rpx 20rpx 10rpx;
+  border: 2rpx solid #537a20;
+  border-radius: 5rpx;
+}
+.vipbtnbox{
+  width: 300rpx;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
